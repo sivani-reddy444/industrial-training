@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task3</title>
+        <style>
+            .a{
+                height: 604px;
+                width: 1008px;
+                background-color: white;
+                border: 1px solid black;
+                margin-left: 30px;
+            }
+            .b{
+                height: 340px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 20px;
+            }
+            .c{
+                height: 340px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px; 
+            }
+            .d{
+                height: 340px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px;
+            }
+            .e{
+                height: 340px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: right;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px;
+            }
+            .f{
+                height: 240px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px;
+            }
+            .g{
+                height: 240px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px;
+            }
+            .h{
+                height: 240px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: left;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px;
+            }
+            .i{
+                height: 240px;
+                width: 240px;
+                background-color: white;
+                border: 1px solid black;
+                float: right;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 5px;
+                font-size: 19px;
+            }
+            .j{
+                height: 300px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px;
+            }
+            .ja{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .jb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+            }
+            .jc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .k{
+                height: 300px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                position: relative;
+            }
+            .ka{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .kb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+                position: relative; 
+                top: 20px;
+                left: 20px;
+            }
+            .kc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+            .l{
+                height: 300px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                position: relative; 
+            }
+            .la{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue; 
+            }
+            .lb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+            }
+            .lc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+                float: left;
+            }
+            .m{
+                height: 300px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                position: relative; 
+            }
+            .ma{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .mb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .mc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen;
+                position: fixed;
+                top: 0px;
+                right: 0px;
+            }
+            .n{
+                height: 200px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                height:200px;
+    overflow:scroll;
+    overflow-x:hidden;
+                
+            }
+            .na{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+                position: sticky;
+                top: 20px;
+                margin-top: 20px;
+            }
+            .nb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .nc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .nd{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .ne{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .nf{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .ng{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .nh{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .o{
+                height: 200px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                height:200px;
+    overflow:scroll;
+    overflow-x:hidden;  
+            }
+            .oa{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .ob{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .oc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .od{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .og{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+            }
+            .oh{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+                position: sticky;
+                bottom: 20px; 
+            }
+            .p{
+                height: 200px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                overflow:scroll;
+                 
+                overflow-y:hidden;
+                white-space: nowrap; 
+            }
+            .pa{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                
+            }
+            .pb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-right: 100px;
+            }
+            .pc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+                position: sticky;
+                left:  0px; 
+                float: left;
+            }
+            .pd{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .pe{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .pf{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .pg{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .ph{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .q{
+                height: 200px;
+                width: 230px;
+                border: 1px solid grey;
+                margin-left: 3px;
+                margin-top: 3px; 
+                overflow-y: hidden;
+                overflow-x: scroll;
+            }
+            .qa{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .qb{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .qc{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .qd{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .qe{
+                height: 98px;
+                width: 98px;
+                border: 1px solid blue;
+                background-color: lightblue;
+                float: left;
+                margin-top: 20px;
+            }
+            .qf{
+                height: 98px;
+                width: 98px;
+                border: 1px solid green;
+                background-color: lightgreen; 
+                position: sticky left;
+                right:   20px; 
+                float: left;
+                margin-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <div class="b"> position: static
+                <div class="j">
+                    <div class="ja"></div>
+                    <div class="jb"><br><center>static</center></div>
+                    <div class="jc"></div>
+                </div> </div>
+            <div class="c">position: relative
+                <div class="k">
+                    <div class="ka"></div>
+                    <div class="kb"><br><center>relative</center></div>
+                    <div class="kc"></div>
+                </div>
+            </div>
+            <div class="d"> position: absolute
+                <div class="l">
+                    <div class="la"></div>
+                    <div class="lb"></div>
+                    <div class="lc"><br><center>absolute</center></div>
+                </div>
+            </div>
+            <div class="e">position: fixed
+                 <div class="m">
+                    <div class="ma"></div>
+                    <div class="mb"></div>
+                    <div class="mc"><br><center>fixed</center></div>
+                 </div> 
+            </div>
+            <div class="f">position:sticky(top)
+                    <div class="n">
+                        <div class="na"><br><center>sticky(top)</center></div>
+                        <div class="nb"></div>
+                        <div class="nc"></div>
+                        <div class="nd"></div>
+                        <div class="ne"></div>
+                        <div class="nf"></div>
+                        <div class="ng"></div>
+                        <div class="nh"></div>
+                    </div>
+            </div>
+            <div class="g">position: sticky(bottom)
+                <div class="o">
+                    <div class="oa"></div>
+                    <div class="ob"></div>
+                    <div class="oc"></div>
+                    <div class="od"></div>
+                    <div class="oe"></div>
+                    <div class="of"></div>
+                    <div class="oh"><br><center>sticky<br>(bottom)</center></div>
+                </div>
+            </div>
+            <div class="h">position: sticky(left)
+                <div class="p">
+                    <div class="pa"><br><center>sticky<br>(left)</center></div>
+                    <div class="pb"></div>
+                    <div class="pc"></div>
+                    <div class="pd"></div>
+                    <div class="pf"></div>
+                    <div class="pg"></div>
+                    <div class="ph"></div>
+                </div>
+            </div>
+            <div class="i">position:sticky(right)
+                <div class="q">
+                    <div class="qa"></div>
+                    <div class="qb"></div>
+                    <div class="qc"></div>
+                    <div class="qd"></div>
+                    <div class="qe"></div>
+                    <div class="qf"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
